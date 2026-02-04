@@ -1,0 +1,13 @@
+ /* 隐藏原本的 ToC 标题 */
+.md-nav--secondary .md-nav__title {
+  display: none;
+}
+
+/* 添加自定义标题 */
+.md-nav--secondary::before {
+  content: "文档目录";
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.8rem 0.8rem 0;
+  display: block;
+}
