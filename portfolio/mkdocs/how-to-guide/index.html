@@ -351,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs-started/" class="md-nav__link">
+      <a href="../quich-start/" class="md-nav__link">
         
   
   
@@ -555,6 +555,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#favicon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、更改Favicon图标
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -607,34 +618,6 @@
     
   
     常见问题与故障排查
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../appendix/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    附录
   
 
     
@@ -916,6 +899,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#favicon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、更改Favicon图标
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -968,10 +962,10 @@
 </ul>
 </li>
 </ol>
-<pre><code class="language-ymal">nav:
-    - 首页: index.md
-    - 新功能:
-        - 新功能介绍: new-feature.md
+<pre><code class="language-ymal">    nav:
+        - 首页: index.md
+        - 新功能:
+            - 新功能介绍: new-feature.md
 </code></pre>
 <p>重要：如果不将页面加入 nav，该页面不会显示在左侧导航栏。</p>
 <ol>
@@ -999,16 +993,17 @@
 <pre><code class="language-ymal">    theme:
         name: mkdocs
 </code></pre>
-<ul>
-<li>使用 Material 主题  <ul>
-<li>Material 主题需要先安装：<code>pip install mkdocs-material</code></li>
-<li>然后在配置文件中指定：</li>
-</ul>
-</li>
-</ul>
-<pre><code class="language-ymal">    theme:
-        name: material
+<h2 id="favicon">三、更改Favicon图标</h2>
+<ol>
+<li>在docs_dir中创建一个img子目录</li>
+</ol>
+<pre><code class="language-bash">    cd docs
+    mkdir img
 </code></pre>
+<ol>
+<li>并将自定义的favicon.ico文件复制到该目录。 </li>
+<li>MkDocs将自动检测并使用该文件作为你的favicon图标。</li>
+</ol>
 
 
 

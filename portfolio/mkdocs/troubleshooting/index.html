@@ -12,7 +12,7 @@
         <link rel="prev" href="../advance-usage/">
       
       
-        <link rel="next" href="../appendix/">
+        <link rel="next" href="../../material/introduce/">
       
       
         
@@ -351,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs-started/" class="md-nav__link">
+      <a href="../quich-start/" class="md-nav__link">
         
   
   
@@ -469,6 +469,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -511,6 +513,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -519,22 +523,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        常见问题与故障排查
+        一、安装与环境
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="常见问题与故障排查">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、配置问题
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、配置问题">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#yaml" class="md-nav__link">
+  <a href="#1yaml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        YAML 使用注意事项
+        1.YAML 使用注意事项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 导航问题
       
     </span>
   </a>
@@ -547,10 +573,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        导航问题
+        三、基本操作
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、高级用法
       
     </span>
   </a>
@@ -561,34 +598,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../appendix/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    附录
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -764,6 +773,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -772,22 +783,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        常见问题与故障排查
+        一、安装与环境
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="常见问题与故障排查">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、配置问题
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、配置问题">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#yaml" class="md-nav__link">
+  <a href="#1yaml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        YAML 使用注意事项
+        1.YAML 使用注意事项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 导航问题
       
     </span>
   </a>
@@ -800,10 +833,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        导航问题
+        三、基本操作
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、高级用法
       
     </span>
   </a>
@@ -827,10 +871,22 @@
 
 
 
-  <h1>常见问题与故障排查</h1>
-
-<h2 id="_1">常见问题与故障排查</h2>
-<h3 id="yaml">YAML 使用注意事项</h3>
+<h1 id="_1">常见问题与故障排查</h1>
+<h2 id="_2">一、安装与环境</h2>
+<ul>
+<li>安装MkDocs时,显示命令不可用
+        如果执行 <code>mkdocs</code> 命令提示未找到命令，请确认：
+        - Python 和 pip 已正确安装
+        - pip 的安装路径已加入系统环境变量<ul>
+<li>使用 pip3
+    在部分系统中，可能需要使用 pip3 代替 pip：</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-bash">    pip3 install mkdocs
+</code></pre>
+<h2 id="_3">二、配置问题</h2>
+<h3 id="1yaml">1.YAML 使用注意事项</h3>
 <ul>
 <li>使用 <strong>空格</strong> 进行缩进，<strong>不能使用 Tab</strong></li>
 <li>缩进层级必须保持一致</li>
@@ -839,7 +895,7 @@
 <blockquote>
 <p>⚠️ 缩进错误是 MkDocs 初学者最常见的问题之一，通常会导致构建失败。</p>
 </blockquote>
-<h2 id="_2">导航问题</h2>
+<h3 id="2">2. 导航问题</h3>
 <table>
 <thead>
 <tr>
@@ -866,6 +922,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="_4">三、基本操作</h2>
+<h2 id="_5">四、高级用法</h2>
 
 
 

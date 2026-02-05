@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../mkdocs-started/">
+        <link rel="prev" href="../quich-start/">
       
       
         <link rel="next" href="../how-to-guide/">
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mkdocs" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -351,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs-started/" class="md-nav__link">
+      <a href="../quich-start/" class="md-nav__link">
         
   
   
@@ -439,10 +439,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        一、项目结构说明
+        一、文档源文件
       
     </span>
   </a>
@@ -450,15 +450,48 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        二、配置文件说明
+        二、主题
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="二、配置文件说明">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、构建
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#favicon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、Favicon图标
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocsyml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、mkdocs.yml配置项说明
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、mkdocs.yml配置项说明">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -487,7 +520,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 常用核心配置项
+        3. 核心配置项说明
       
     </span>
   </a>
@@ -579,34 +612,6 @@
     
   
     常见问题与故障排查
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../appendix/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    附录
   
 
     
@@ -800,10 +805,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        一、项目结构说明
+        一、文档源文件
       
     </span>
   </a>
@@ -811,15 +816,48 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        二、配置文件说明
+        二、主题
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="二、配置文件说明">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、构建
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#favicon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、Favicon图标
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocsyml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、mkdocs.yml配置项说明
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、mkdocs.yml配置项说明">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -848,7 +886,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 常用核心配置项
+        3. 核心配置项说明
       
     </span>
   </a>
@@ -877,20 +915,23 @@
 
 
 
-<h1 id="mkdocs">mkdocs用户指南</h1>
-<h3 id="_1">一、项目结构说明</h3>
+<h1 id="_1">核心概念</h1>
+<h2 id="_2">一、文档源文件</h2>
 <ul>
-<li><strong>docs/</strong> ：存放所有文档内容，Markdown 文件集中管理。  </li>
-<li><strong>docs/index.md</strong> ：网站首页，通常为项目简介或欢迎页。  </li>
-<li><strong>docs/concepts/</strong> ：存放概念类文档，介绍项目核心理念和基础知识。  </li>
-<li><strong>docs/how-to-guides/</strong> ：存放操作指南，帮助用户一步步完成任务。  </li>
-<li><strong>docs/assets/</strong> ：存放图片、图标等静态资源，供文档引用。  </li>
-<li><strong>mkdocs.yml</strong> ：MkDocs 的核心配置文件，定义网站结构、主题等。  </li>
-<li><strong>requirements.txt</strong> ：Python 依赖列表，方便环境搭建。</li>
+<li>MkDocs中文档源文件是用Markdown格式编写的内容，通常存放在docs目录，构建时转换为静态网页。</li>
 </ul>
-<p>通过该结构，项目文档逻辑清晰，便于新增文档和维护。</p>
-<h3 id="_2">二、配置文件说明</h3>
-<h4 id="1">1. 概览</h4>
+<h2 id="_3">二、主题</h2>
+<ul>
+<li>MkDocs 主题控制文档网站的外观和布局，包括颜色、字体、导航样式，帮助打造统一且美观的用户界面体验。</li>
+</ul>
+<h2 id="_4">三、构建</h2>
+<ul>
+<li>构建build的含义是将你的 Markdown 文档转换成静态的 HTML 网站。它会根据你项目中的 mkdocs.yml 配置文件和 docs/ 目录下的 Markdown 文件，生成完整的静态网页文件。生成的网站文件存放在 site/ 目录，你可以直接打开这些文件查看，也可以将它们上传到服务器或部署到 GitHub Pages 等平台。</li>
+</ul>
+<h2 id="favicon">四、Favicon图标</h2>
+<p>MkDocs中的Favicon是网站浏览器标签页显示的小图标，用于品牌识别和提升用户体验，通常通过配置文件设置。</p>
+<h2 id="mkdocsyml">五、mkdocs.yml配置项说明</h2>
+<h3 id="1">1. 概览</h3>
 <ul>
 <li>MkDocs 使用 <strong>mkdocs.yml</strong> 作为全局配置文件，用于控制整个文档站点的行为和外观，包括：<ul>
 <li>站点基本信息（名称、地址等）</li>
@@ -900,13 +941,13 @@
 </ul>
 </li>
 </ul>
-<h4 id="2">2. 基本结构</h4>
+<h3 id="2">2. 基本结构</h3>
 <ul>
-<li>mkdocs.yml使用 <strong>YAML</strong> 格式进行编写，其基本形式为 <strong>键值对（key: value）</strong>。</li>
+<li>mkdocs.yml使用 <strong>YAML</strong> 格式进行编写，其基本形式为 <strong>键值对（key: value）</strong>。比如</li>
 </ul>
 <pre><code class="language-ymal">    site_name: My Docs
 </code></pre>
-<h4 id="3">3. 常用核心配置项</h4>
+<h3 id="3">3. 核心配置项说明</h3>
 <ul>
 <li>site_name（站点名称）:用于指定文档站点的名称，通常会显示在：<strong>浏览器标签页标题</strong> 和 <strong>页面顶部导航栏</strong></li>
 </ul>
@@ -919,7 +960,7 @@
 </ul>
 </li>
 </ul>
-<pre><code class="language-ymal">site_url: https://example.github.io/mkdocs-guide/
+<pre><code class="language-ymal">    site_url: https://example.github.io/mkdocs-guide/
 </code></pre>
 <ul>
 <li>nav（导航配置）:用于定义文档站点左侧的导航结构，是配置中<strong>最重要</strong>、也<strong>最容易出错</strong>的部分。<ul>
