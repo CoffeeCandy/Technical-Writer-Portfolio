@@ -1,17 +1,7 @@
-# Welcome to Evelyn
+# 技术写作必读博客
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+技术是不断演进的旅程，我也在学习和成长中，希望通过这片空间，与志同道合的朋友一起探索、交流和进步。感谢你的到来，期待与你共同进步！
+ 
+## 作品
+#### 1. [mkdocs ](./portfolio/mkdocs/introduce.md)
+#### 2.[material](./portfolio/material/introduce.md)
