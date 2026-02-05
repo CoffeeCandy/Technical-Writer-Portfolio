@@ -4,12 +4,11 @@ nav:
   - 作品:
     - MkDocs用户指南:
       - 介绍: portfolio/mkdocs/introduce.md 
-      - 快速开始: portfolio/mkdocs/mkdocs-started.md
+      - 快速开始: portfolio/mkdocs/quich-start.md
       - 核心概念: portfolio/mkdocs/concepts.md
       - 操作指南: portfolio/mkdocs/how-to-guide.md
       - 高级用法: portfolio/mkdocs/advance-usage.md
       - 常见问题与故障排查: portfolio/mkdocs/troubleshooting.md
-      - 附录: portfolio/mkdocs/appendix.md
     - material主题用户指南: portfolio/material/introduce.md 
   - About:
     - License: license.md

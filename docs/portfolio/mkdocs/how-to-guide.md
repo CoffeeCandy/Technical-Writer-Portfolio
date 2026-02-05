@@ -23,10 +23,10 @@
     - 找到 nav 配置项
     - 按照导航层级，新增对应页面的路径（相对于 docs/ 目录）
 ```ymal
-nav:
-    - 首页: index.md
-    - 新功能:
-        - 新功能介绍: new-feature.md
+    nav:
+        - 首页: index.md
+        - 新功能:
+            - 新功能介绍: new-feature.md
 ```
 重要：如果不将页面加入 nav，该页面不会显示在左侧导航栏。
 
@@ -49,12 +49,13 @@ nav:
         name: mkdocs
 ```
 
-* 使用 Material 主题  
-    - Material 主题需要先安装：`pip install mkdocs-material`
-    - 然后在配置文件中指定：
-```ymal
-    theme:
-        name: material
-```
 
+## 三、更改Favicon图标
+1. 在docs_dir中创建一个img子目录
+```bash
+    cd docs
+    mkdir img
+```  
+2. 并将自定义的favicon.ico文件复制到该目录。 
+3. MkDocs将自动检测并使用该文件作为你的favicon图标。
 
