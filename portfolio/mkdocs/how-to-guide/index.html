@@ -699,7 +699,7 @@
   <span class="md-ellipsis">
     
   
-    About
+    博客说明
   
 
     
@@ -715,7 +715,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    About
+    博客说明
   
 
           </label>
@@ -728,42 +728,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../license/" class="md-nav__link">
+      <a href="../../../about/rules/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    License
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../release-notes.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Release Notes
+    格式规定
   
 
     
@@ -930,7 +902,9 @@
 <h1 id="_1">操作指南</h1>
 <h2 id="_2">一、新增页面</h2>
 <h3 id="1">1.背景:</h3>
-<p>当你需要补充新的文档内容，如新增功能说明、FAQ、教程章节等，就需要新增页面。</p>
+<ul>
+<li>当你需要补充新的文档内容，如新增功能说明、FAQ、教程章节等，就需要新增页面。</li>
+</ul>
 <h3 id="2">2.基本流程:</h3>
 <ul>
 <li>在 docs/ 目录下创建新的 Markdown 文件</li>
@@ -939,7 +913,7 @@
 <li>本地预览或构建站点，确认页面显示正常</li>
 </ul>
 <h3 id="3">3.详细流程:</h3>
-<ol>
+<ul>
 <li>
 <p>创建 Markdown 文件</p>
 <ul>
@@ -961,14 +935,14 @@
 <li>按照导航层级，新增对应页面的路径（相对于 docs/ 目录）</li>
 </ul>
 </li>
-</ol>
+</ul>
 <pre><code class="language-ymal">    nav:
         - 首页: index.md
         - 新功能:
             - 新功能介绍: new-feature.md
 </code></pre>
-<p>重要：如果不将页面加入 nav，该页面不会显示在左侧导航栏。</p>
-<ol>
+<p>注意：如果不将页面加入 nav，该页面不会显示在左侧导航栏。</p>
+<ul>
 <li>预览页面效果<ul>
 <li>在命令行执行：<code>mkdocs serve</code></li>
 <li>打开浏览器，访问默认地址 http://127.0.0.1:8000</li>
@@ -976,7 +950,7 @@
 <li>点击确认内容显示正常</li>
 </ul>
 </li>
-</ol>
+</ul>
 <h2 id="_3">二、使用和切换主题</h2>
 <h3 id="1_1">1. 主题简介</h3>
 <ul>
@@ -994,16 +968,16 @@
         name: mkdocs
 </code></pre>
 <h2 id="favicon">三、更改Favicon图标</h2>
-<ol>
+<ul>
 <li>在docs_dir中创建一个img子目录</li>
-</ol>
+</ul>
 <pre><code class="language-bash">    cd docs
     mkdir img
 </code></pre>
-<ol>
+<ul>
 <li>并将自定义的favicon.ico文件复制到该目录。 </li>
 <li>MkDocs将自动检测并使用该文件作为你的favicon图标。</li>
-</ol>
+</ul>
 
 
 
