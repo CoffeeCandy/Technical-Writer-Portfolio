@@ -5,15 +5,10 @@
 * MkDocs 基于 Python 开发，请确保本地已安装 Python 环境。
     - Python 版本：3.8 及以上
     - 操作系统：Windows、macOS、Linux 均可
-
-注: 你可以通过以下命令确认 Python 是否已安装：
+    - 可以通过以下命令确认 Python 是否已安装
 
 ```bash
-    python --version
-```
-或：
-```bash
-    python3 --version
+    python --version 或者  python3 --version
 ```
 如果未安装 Python，请先前往 Python 官方网站完成安装。
 

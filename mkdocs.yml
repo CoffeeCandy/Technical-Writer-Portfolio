@@ -12,6 +12,7 @@ nav:
     - material主题用户指南: portfolio/material/introduce.md 
   - 博客说明:
     - 格式规定: about/rules.md
+    - 常用git命令: about/git-command.md
 theme:
   name: material
  
@@ -21,5 +22,11 @@ plugins:
 
 extra_css:
   - css/extra.css
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
  
  
