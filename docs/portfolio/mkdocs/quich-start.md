@@ -2,7 +2,7 @@
 
 ## 一、安装MkDocs
 ### 1. 安装与环境准备
-- MkDocs 基于 Python 开发，请确保本地已安装 Python 环境。
+* MkDocs 基于 Python 开发，请确保本地已安装 Python 环境。
     - Python 版本：3.8 及以上
     - 操作系统：Windows、macOS、Linux 均可
 
@@ -18,7 +18,7 @@
 如果未安装 Python，请先前往 Python 官方网站完成安装。
 
 ### 2.安装 MkDocs
-MkDocs 可通过 Python 的包管理工具 pip 进行安装。
+* MkDocs 可通过 Python 的包管理工具 pip 进行安装。
 ```bash
     pip install mkdocs
 ```
