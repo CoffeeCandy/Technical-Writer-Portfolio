@@ -10,9 +10,8 @@ nav:
       - 高级用法: portfolio/mkdocs/advance-usage.md
       - 常见问题与故障排查: portfolio/mkdocs/troubleshooting.md
     - material主题用户指南: portfolio/material/introduce.md 
-  - About:
-    - License: license.md
-    - Release Notes: release-notes.md
+  - 博客说明:
+    - 格式规定: about/rules.md
 theme:
   name: material
  
