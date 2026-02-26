@@ -330,7 +330,7 @@
   <span class="md-ellipsis">
     
   
-    介绍
+    概览
   
 
     
@@ -760,6 +760,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/git-command/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常用git命令
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -923,20 +951,22 @@
 
 <h1 id="_1">高级用法</h1>
 <h2 id="_2">一、自定义主题</h2>
-<p>MkDocs 的主题决定了文档网站的整体风格和布局。默认主题已经满足了大部分需求，但有时我们需要根据品牌或者特殊需求自定义主题。</p>
+<ul>
+<li>MkDocs 的主题决定了文档网站的整体风格和布局。默认主题已经满足了大部分需求，但有时我们需要根据品牌或者特殊需求自定义主题。</li>
+</ul>
 <h3 id="1">1. 使用第三方主题</h3>
 <ul>
-<li>安装第三方主题插件,如安装material主题:</li>
-</ul>
-<pre><code class="language-bash">    pip install mkdocs-material
-</code></pre>
-<ul>
-<li>在 mkdocs.yml 中修改主题名称.如:</li>
-</ul>
-<pre><code class="language-ymal">    theme:
+<li>
+<p>安装第三方主题插件,如安装material主题:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material
+</code></pre></div></p>
+</li>
+<li>
+<p>在 mkdocs.yml 中修改主题名称.如:
+<div class="highlight"><pre><span></span><code>    theme:
         name: Material
-</code></pre>
-<ul>
+</code></pre></div></p>
+</li>
 <li><a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes">第三方主题插件参考链接</a></li>
 </ul>
 <h3 id="2">2. 覆盖静态资源</h3>
@@ -959,9 +989,9 @@
 <li>确保你的项目在GitHub 仓库(如果你不想在github上保存源代码,那么只要创建github仓库即可)</li>
 <li>在本地使用以下命令：</li>
 </ul>
-<pre><code class="language-bash">    mkdocs gh-deploy
-</code></pre>
-<p>该命令会自动构建项目并将 site 目录内容推送到 GitHub Pages 分支。</p>
+<p><div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>gh-deploy
+</code></pre></div>
+该命令会自动构建项目并将 site 目录内容推送到 GitHub Pages 分支。</p>
 <ul>
 <li>在命令行的执行信息中的最后一行你可以看到你的文档地址,打开该链接地址,即可预览。</li>
 </ul>

@@ -330,7 +330,7 @@
   <span class="md-ellipsis">
     
   
-    介绍
+    概览
   
 
     
@@ -448,7 +448,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 安装完成后，可以通过以下命令验证是否安装成功：
+        3. 验证
       
     </span>
   </a>
@@ -476,7 +476,7 @@
   <a href="#1_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 执行命令
+        1. 创建命令
       
     </span>
   </a>
@@ -738,6 +738,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/git-command/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常用git命令
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -809,7 +837,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 安装完成后，可以通过以下命令验证是否安装成功：
+        3. 验证
       
     </span>
   </a>
@@ -837,7 +865,7 @@
   <a href="#1_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 执行命令
+        1. 创建命令
       
     </span>
   </a>
@@ -877,39 +905,39 @@
 
 
 
-<h1 id="_1">快速上手</h1>
+<h1 id="_1">快速开始</h1>
 <h2 id="mkdocs">一、安装MkDocs</h2>
 <h3 id="1">1. 安装与环境准备</h3>
 <ul>
 <li>MkDocs 基于 Python 开发，请确保本地已安装 Python 环境。<ul>
 <li>Python 版本：3.8 及以上</li>
 <li>操作系统：Windows、macOS、Linux 均可</li>
+<li>可以通过以下命令确认 Python 是否已安装</li>
 </ul>
 </li>
 </ul>
-<p>注: 你可以通过以下命令确认 Python 是否已安装：</p>
-<pre><code class="language-bash">    python --version
-</code></pre>
-<p>或：</p>
-<pre><code class="language-bash">    python3 --version
-</code></pre>
-<p>如果未安装 Python，请先前往 Python 官方网站完成安装。</p>
+<p><div class="highlight"><pre><span></span><code><span class="w">    </span>python<span class="w"> </span>--version<span class="w"> </span>或者<span class="w">  </span>python3<span class="w"> </span>--version
+</code></pre></div>
+如果未安装 Python，请先前往 Python 官方网站完成安装。</p>
 <h3 id="2-mkdocs">2.安装 MkDocs</h3>
 <ul>
-<li>MkDocs 可通过 Python 的包管理工具 pip 进行安装。</li>
+<li>MkDocs 可通过 Python 的包管理工具 pip 进行安装。
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mkdocs
+</code></pre></div></li>
 </ul>
-<pre><code class="language-bash">    pip install mkdocs
-</code></pre>
-<h3 id="3">3. 安装完成后，可以通过以下命令验证是否安装成功：</h3>
-<pre><code class="language-bash">    mkdocs --version
-</code></pre>
-<p>如果终端输出 MkDocs 的版本号，说明安装成功。</p>
+<h3 id="3">3. 验证</h3>
+<ul>
+<li>安装完成后，可以通过以下命令验证是否安装成功：
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>--version
+</code></pre></div>
+如果终端输出 MkDocs 的版本号，说明安装成功。</li>
+</ul>
 <h2 id="_2">二、 创建第一个项目</h2>
-<h3 id="1_1">1. 执行命令</h3>
-<pre><code class="language-bash">    mkdocs new my-project
-    cd my-project
-    mkdocs serve
-</code></pre>
+<h3 id="1_1">1. 创建命令</h3>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>new<span class="w"> </span>my-project
+<span class="w">    </span><span class="nb">cd</span><span class="w"> </span>my-project
+<span class="w">    </span>mkdocs<span class="w"> </span>serve
+</code></pre></div>
 <h3 id="2">2. 浏览网站</h3>
 <ul>
 <li>在浏览器中打开http://127.0.0.1:8000/，你将看到显示的默认主页：</li>
