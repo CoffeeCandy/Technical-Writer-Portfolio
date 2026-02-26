@@ -10,7 +10,7 @@
 ```bash
 	pip3 install mkdocs
 ```
-## 二、配置问题
+## 二、配置
 
 ### 1.YAML 使用注意事项
 

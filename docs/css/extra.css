@@ -5,7 +5,7 @@
 
 /* 添加自定义标题 */
 .md-nav--secondary::before {
-  content: "文档目录";
+  content: "目录";
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.8rem 0.8rem 0;
